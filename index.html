@@ -1,291 +1,200 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  		<title>Tangoo LLC</title>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+      https://www.apache.org/licenses/LICENSE-2.0
 
-        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>天青色等烟雨，而我在等你</title>
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
 
-<body>
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
-    <nav>
-        <div class="logo">
-            <a href="index.html">Tangoo<em>LLC</em></a>
-        </div>
-        <div class="menu-icon">
-        <span></span>
-      </div>
-    </nav>
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
 
-    <div id="video-container">
-        <div class="video-overlay"></div>
-        <div class="video-content">
-            <div class="inner">
-              <h1>欢迎！</h1>
-              <p>网站正在等待更新中，请稍后再来</p>
-              <p>（其实就是最近太忙没有时间）</p>
-                <div class="scroll-icon">
-                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
-                </div>    
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">我在等风，也等你</a></h3>
             </div>
-        </div>
-        <video autoplay loop muted>
-        	<source src="highway-loop.mp4" type="video/mp4" />
-        </video>
-    </div>
-
-
-    <div class="full-screen-portfolio" id="portfolio">
-        <div class="container-fluid">
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_4.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>博客</h1>
-                                <p>然而忙到根本没有时间写</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_4.png">
-                        </div>
-                    </div></a>
-                </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>shawshuai</strong>
+                <span>2019·09·08</span>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_2.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>笔记</h1>
-                                <p>其实也是没有时间写2333333</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_2.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_3.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>分享</h1>
-                                <p>等待搬砖</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_3.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_1.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>作品</h1>
-                                <p>做了但是好丑所以还是之后再发吧</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_1.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_5.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>freegan <em>aesthetic</em></h1>
-                                <p>Awesome Subtittle Goes Here</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_5.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_6.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>taiyaki <em>vegan</em></h1>
-                                <p>Awesome Subtittle Goes Here</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_6.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_7.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>Thundercats <em>santo</em></h1>
-                                <p>Awesome Subtittle Goes Here</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_7.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="img/big_portfolio_item_8.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>wayfarers <em>yuccie</em></h1>
-                                <p>Awesome Subtittle Goes Here</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_8.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-            	<div class="portfolio-item">
-                	<a href="img/big_portfolio_item_9.png" data-lightbox="image-1"><div class="thumb">
-                        <div class="hover-effect">
-                            <div class="hover-content">
-                                <h1>disrupt <em>street</em></h1>
-                                <p>Awesome Subtittle Goes Here</p>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="img/portfolio_item_9.png">
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <footer>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <p>NOTHING TO SAY
-                </p>
-            </div>
-        </div>
-    </footer>
-
-
-      <!-- Modal button -->
-    <div class="popup-icon">
-      <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
-    </div>  
-
-    <!-- Modal -->
-    <div id="modal" class="modal">
-      <!-- Modal Content -->
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h3 class="header-title">给肖某人投递<em>小纸条</em></h3>
-          <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
-        </div>
-        <!-- Modal Body -->
-        <div class="modal-body">
-          <div class="col-md-6 col-md-offset-3">
-            <form id="contact" action="" method="post">
-                <div class="row">
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="你的名字..." required="">
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="email" type="email" class="form-control" id="email" placeholder="老兄留个邮箱..." required="">
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="给小纸条写点东西吧..." required></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="btn">立即投递小纸条</button>
-                      </fieldset>
-                    </div>
-                </div>
-            </form>
           </div>
-        </div>
-      </div>
-    </div>
-
-    
-
-    <section class="overlay-menu">
-      <div class="container">
-        <div class="row">
-          <div class="main-menu">
-              <ul>
-                  <li>
-                      <a href="index.html">主页-全宽</a>
-                  </li>
-                  <li>
-                      <a href="masonry.html">主页 - Masonry</a>
-                  </li>
-                  <li>
-                      <a href="grid.html">主页 - Small-width</a>
-                  </li>
-                  <li>
-                      <a href="about.html">关于</a>
-                  </li>
-                  <li>
-                      <a href="blog.html">博客目录</a>
-                  </li>
-                  <li>
-                      <a href="single-post.html">单篇博文</a>
-                  </li>
+          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
+              <i class="material-icons mdl-color-text--white" role="presentation">add</i>
+              <span class="visuallyhidden">add</span>
+            </button>
+            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+              <img src="images/logo.png">
+              +1,337
+            </div>
+            <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+              <div>
+                <strong>The Newist</strong>
+              </div>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="menubtn">
+                <li class="mdl-menu__item">About</li>
+                <li class="mdl-menu__item">Message</li>
+                <li class="mdl-menu__item">Favorite</li>
+                <li class="mdl-menu__item">Search</li>
               </ul>
-              <p>真的想好好写代码呢。编写代码，改变世界。</p>
+              <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">more_vert</i>
+                <span class="visuallyhidden">show menu</span>
+              </button>
+            </div>
           </div>
+          <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">一路风景</a></h3>
+            </div>
+            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+              每次出发前会觉得这样麻烦那样麻烦，但当你真正收拾好行李走在旅途上的时候，你才会发现：哇原来是这样美好，飞机窗外的云是那么的绚丽，火车窗外的田是那么的宽广，旅途中遇到的人是那么的难忘。总之，在路上给人的感觉就是那种难以言喻的美好。
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3 class="quote"><a href="entry.html">I couldn’t take any pictures but this was an amazing thing…</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card shopping mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">Shopping</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <nav class="demo-nav mdl-cell mdl-cell--12-col">
+            <div class="section-spacer"></div>
+            <a href="entry.html" class="demo-nav__button" title="show more">
+              More
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">arrow_forward</i>
+              </button>
+            </a>
+          </nav>
         </div>
-      </div>
-    </section>
-
-    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    
-</body>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+              <span class="visuallyhidden">Twitter</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+              <span class="visuallyhidden">Facebook</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+              <span class="visuallyhidden">Google Plus</span>
+            </button>
+          </div>
+          <div class="mdl-mini-footer--right-section">
+            <button class="mdl-mini-footer--social-btn social-btn__share">
+              <i class="material-icons" role="presentation">share</i>
+              <span class="visuallyhidden">share</span>
+            </button>
+          </div>
+        </footer>
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <!--
+    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View Source</a> -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+  <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+      var link = el.querySelector('a');
+      if(!link) {
+        return;
+      }
+      var target = link.getAttribute('href');
+      if(!target) {
+        return;
+      }
+      el.addEventListener('click', function() {
+        location.href = target;
+      });
+    });
+  </script>
 </html>
